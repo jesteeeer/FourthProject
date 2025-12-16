@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Valorant Font';
+    src: url('../fonts/Valorant\ Font.ttf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Valorant Font';
+}
+.hero {
+    background-image: linear-gradient(to top, black 1%, transparent), url("../images/1249094.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.agent-card {
+    border: 3px solid #FFAEB0;
+    background-color: black;
+}
+
+.role-icon{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.agent-img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.agent-name {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ability-name {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.ability-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.rank-icon {
+    width: 150px;
+}
+
+.closing-section{
+    background-image: linear-gradient(to bottom, black 2%, transparent),linear-gradient(to top, black 0.5%, transparent), url("../images/1300312.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
