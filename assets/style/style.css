@@ -18,6 +18,17 @@ body {
     background-position: center;
 }
 
+.custom-btn {
+    border: 3px solid #FFAEB0;
+    transition: 0.3s ease;
+}
+
+.custom-btn:hover {
+    color: #FFAEB0;
+    background-color: #FFAEB0;
+    transform: translateY(-4px);;
+}
+
 .agent-card {
     border: 3px solid #FFAEB0;
     background-color: black;
